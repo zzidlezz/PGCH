@@ -15,8 +15,6 @@ elif args.dataname == 'WIKI':
     DIR = '../Data/WIKIPEDIA.mat'
 elif args.dataname == 'nuswide': # select sample from each dataset
     DIR = '../Data/raw_nus.mat'
-elif args.dataname == 'coco':
-    DIR = '../Data/coco_cnn.mat'
 else:
     print('Dataname Error!')
     DIR = ''
